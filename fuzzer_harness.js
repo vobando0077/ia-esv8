@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const target = {};
 let depth = 0;
 
@@ -5,7 +7,7 @@ const proxy = new Proxy(target, {
     get(t, p, receiver) {
         depth++;
         if (depth > 50000) {
-            throw new Error(`[🔥] Límite de profundidad alcanzado en recursión: ${depth}`);
+            throw new Error("[🔥] Límite de profundidad alcanzado");
         }
         return Reflect.get(t, p, receiver);
     }
@@ -27,3 +29,4 @@ try {
         console.log("[!] DebugPrint bloqueado:", err.message);
     }
 }
+

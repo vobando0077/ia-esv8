@@ -1,0 +1,54 @@
+{
+  "v8": {
+    "v8/third_party/llvm-build/Release+Asserts": [
+      "Linux_x64/clang-android-runtime-library-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Linux_x64/clang-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Linux_x64/clang-tidy-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Linux_x64/clangd-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Linux_x64/llvm-code-coverage-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Linux_x64/llvmobjdump-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Mac/clang-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Mac/clang-mac-runtime-library-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Mac/clang-tidy-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Mac/clangd-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Mac/llvm-code-coverage-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Mac/llvmobjdump-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Mac_arm64/clang-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Mac_arm64/clang-tidy-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Mac_arm64/clangd-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Mac_arm64/llvm-code-coverage-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Mac_arm64/llvmobjdump-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Win/clang-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Win/clang-tidy-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Win/clang-win-runtime-library-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Win/clangd-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Win/llvm-code-coverage-llvmorg-24-init-17044-gc3223914-1.tar.xz",
+      "Win/llvmobjdump-llvmorg-24-init-17044-gc3223914-1.tar.xz"
+    ],
+    "v8/third_party/rust-toolchain": [
+      "Linux_x64/rust-toolchain-96a18bf5ffa2b24f9cf3d1c731a9eb121c1acad9-2-llvmorg-24-init-17044-gc3223914.tar.xz",
+      "Mac/rust-toolchain-96a18bf5ffa2b24f9cf3d1c731a9eb121c1acad9-2-llvmorg-24-init-17044-gc3223914.tar.xz",
+      "Mac_arm64/rust-toolchain-96a18bf5ffa2b24f9cf3d1c731a9eb121c1acad9-2-llvmorg-24-init-17044-gc3223914.tar.xz",
+      "Win/rust-toolchain-96a18bf5ffa2b24f9cf3d1c731a9eb121c1acad9-2-llvmorg-24-init-17044-gc3223914.tar.xz"
+    ],
+    "v8/third_party/llvm-libclang": [
+      "Linux_x64/rust-libclang-96a18bf5ffa2b24f9cf3d1c731a9eb121c1acad9-2-llvmorg-24-init-17044-gc3223914.tar.xz",
+      "Mac/rust-libclang-96a18bf5ffa2b24f9cf3d1c731a9eb121c1acad9-2-llvmorg-24-init-17044-gc3223914.tar.xz",
+      "Mac_arm64/rust-libclang-96a18bf5ffa2b24f9cf3d1c731a9eb121c1acad9-2-llvmorg-24-init-17044-gc3223914.tar.xz",
+      "Win/rust-libclang-96a18bf5ffa2b24f9cf3d1c731a9eb121c1acad9-2-llvmorg-24-init-17044-gc3223914.tar.xz"
+    ]
+  },
+  "v8/buildtools": {
+    "v8/buildtools/linux64-format": [
+      "f5485c39451137ee943021a0fb63738b306c5026"
+    ]
+  },
+  "v8/build": {
+    "v8/build/linux/debian_bullseye_amd64-sysroot": [
+      "f851add76bdae472fb6c94b4f920bc4a132d85ac607951391297f636af7e934e"
+    ],
+    "v8/build/linux/debian_bullseye_i386-sysroot": [
+      "854e63992a633c8d54b69959d7b789453239d7f4bc30216594f0e3eb1b520402"
+    ]
+  }
+}
